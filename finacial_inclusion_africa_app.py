@@ -27,12 +27,12 @@ def main():
     year = st.selectbox("year", [2016, 2017, 2018])
     location_type = st.selectbox("location_type", ["Rural", "Urban"])
     cellphone_access = st.selectbox("cellphone_access", ["Yes", "No"])
-    household_size = st.slider("household_size", 1, 20)
-    age_of_respondent = st.slider("age_of_respondent", 1, 100)
+    household_size = st.slider("household_size", 1, 10)
+    age_of_respondent = st.slider("age_of_respondent", 1, 88)
     gender_of_respondent = st.selectbox("gender_of_respondent", ["Male", "Female"])
     relationship_with_head = st.selectbox("relationship_with_head", ["Head of Household", "Spouse", "Child", "Parent", "Other relative", "Other non-relatives"])
     marital_status = st.selectbox("marital_status", ["Married/Living together", "Single/Never Married", "Widowed", "Divorced/Seperated, Dont know"])
-    education_level = st.selectbox("education_level", ["Secondary education", "No formal education", "Vocational/Specialised training, Primary education", "Tertiary education", "Other/Dont know/RTA"])
+    education_level = st.selectbox("education_level", ["Secondary education", "No formal education", "Vocational/Specialised training", "Tertiary education", "Other/Dont know/RTA"])
     job_type = st.selectbox("job_type", ["Self employed", "Government Dependent", "Formally employed Private", "Informally employed", "Formally employed Government", "Farming and Fishing", "Remittance Dependent", "Other Income", "Dont Know/Refuse to answer", "No Income"])
     
     result= ""
